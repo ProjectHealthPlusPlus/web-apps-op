@@ -1,0 +1,27 @@
+<mat-card style="width: 25%">
+    <mat-card-content>
+        <mat-card-title>Reserve su Cita</mat-card-title>
+        <mat-card-subtitle>Es recomendabel llenar la mayor cantidad de casillas posibles para una mejor atención<code class=""><a href="https://material.angular.io/components/snack-bar/overview">Official Component</a></code></mat-card-subtitle>
+        <mat-form-field style="width: 80%">
+            <input matInput placeholder="Nombre Completo" #message> </mat-form-field>
+        <mat-form-field style="width: 80%">
+            <input matInput placeholder="DNI" #action> </mat-form-field>
+        <mat-form-field style="width: 80%">
+          <input matInput placeholder="Especialidad" #action> </mat-form-field>
+        <mat-form-field style="width: 80%">
+          <input matInput placeholder="Descripción" #action> </mat-form-field>
+
+        <mat-form-field style="width: 80%" appearance="fill">
+          <mat-label>Eliga la Fecha</mat-label>
+          <input matInput [matDatepicker]="picker">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker touchUi #picker></mat-datepicker>
+        </mat-form-field>
+<!--        <vaadin-time-picker label="Arrival hour (hh:mm)"></vaadin-time-picker>-->
+        <mat-form-field style="width: 80%">
+          <input matInput type="datetime-local" placeholder="start date">
+        </mat-form-field>
+
+        <button mat-raised-button color="warn" (click)="openSnackBar(message.value, action.value)">Show snack-bar</button>
+    </mat-card-content>
+</mat-card>
