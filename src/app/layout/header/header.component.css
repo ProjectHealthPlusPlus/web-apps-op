@@ -3,7 +3,7 @@
 }
 
 .example-spacer {
-  flex: 1 1 auto;
+  flex: 3 3 auto;
   background-color: teal;
 }
 .input [type=text]{

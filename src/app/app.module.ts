@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HomeComponent } from './medic-center/home/home.component';
-import { DiagnosticsComponent } from './medic-center/diagnostics/diagnostics.component';
-import { DoctorsComponent } from './medic-center/doctors/doctors.component';
-import { PatientsComponent } from './medic-center/patients/patients.component';
-import { MedicalCenterComponent } from './medic-center/medical-center/medical-center.component';
-import { AboutComponent } from './medic-center/about/about.component';
+import { HomeComponent } from './home/home.component';
+import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
+import { DoctorsComponent } from './doctors/doctors.component';
+import { PatientsComponent } from './patients/patients.component';
+import { MedicalCenterComponent } from './medical-center/medical-center.component';
+import { AboutComponent } from './about/about.component';
 import {HeaderModule} from "./layout/header/header.module";
 import {RouterModule} from "@angular/router";
 import {AppRoutingModule} from "./app-routing.module";
