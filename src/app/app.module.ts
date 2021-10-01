@@ -11,6 +11,7 @@ import { MedicalCenterComponent } from './medic-center/medical-center/medical-ce
 import { AboutComponent } from './medic-center/about/about.component';
 import {HeaderModule} from "./layout/header/header.module";
 import {RouterModule} from "@angular/router";
+import {AppRoutingModule} from "./app-routing.module";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import {RouterModule} from "@angular/router";
     BrowserModule,
     BrowserAnimationsModule,
     HeaderModule,
-    RouterModule
+    RouterModule,
+    /*routing agrega this->:*/
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

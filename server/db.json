@@ -1,0 +1,52 @@
+{
+  "centromedico": [
+    {
+    "id":1,
+    "city": "Lima",
+    "name": "EZSalud",
+    "address": "NoWhere"
+    },
+    {
+      "id":2,
+      "city": "Lima",
+      "name": "SanPablo",
+      "address": "SomeWhere"
+    },
+    {
+      "id":3,
+      "city": "Lima",
+      "name": "SanMarcos",
+      "address": "NoWhere"
+    },
+    {
+      "id":4,
+      "city": "Lima",
+      "name": "SanLucas",
+      "address": "AnyWhere"
+    }
+  ],
+
+
+  "doctors": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "address": "NoWhere"
+    },
+    {
+      "id": 2,
+      "name": "Jason Bourne",
+      "age": 36,
+      "address": "Unknown"
+    },
+    {
+      "id": 3,
+      "name": "William Norton",
+      "age": 42,
+      "address": "One Place"
+    }
+  ]
+}
+
+

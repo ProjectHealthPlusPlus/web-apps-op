@@ -4,4 +4,8 @@
 
 .example-spacer {
   flex: 1 1 auto;
+  background-color: teal;
+}
+.input [type=text]{
+  padding: 6px;
 }
