@@ -20,35 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4e74ee0-77b7-4538-9079-03c43de6d60b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/header/header.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/header/header.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/header/header.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/about/about.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/about/about.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/about/about.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/diagnostics/diagnostics.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/diagnostics/diagnostics.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/diagnostics/diagnostics.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/diagnostics/diagnostics.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/diagnostics/diagnostics.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/diagnostics/diagnostics.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/diagnostics/diagnostics.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/diagnostics/diagnostics.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/doctors/doctors.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/doctors/doctors.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/doctors/doctors.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/doctors/doctors.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/doctors/doctors.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/doctors/doctors.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/doctors/doctors.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/doctors/doctors.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/home/home.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/medical-center/medical-center.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/medical-center/medical-center.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/medical-center/medical-center.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/medical-center/medical-center.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/patients/patients.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/patients/patients.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/patients/patients.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/patients/patients.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/patients/patients.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/patients/patients.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/patients/patients.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/patients/patients.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/header/header.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/header/header.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/header/header.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +63,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Medical-Center" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="Z:\escritorio flotante\UPC\2021-2\open\gitjab\web-apps-op\node_modules\typescript\lib" />
@@ -97,6 +87,7 @@
       <workItem from="1633058188305" duration="31000" />
       <workItem from="1633068818932" duration="7521000" />
       <workItem from="1633102490955" duration="2275000" />
+      <workItem from="1633106844457" duration="10156000" />
     </task>
     <task id="LOCAL-00001" summary="Added navBar options, components and server">
       <created>1633076356378</created>
@@ -132,6 +123,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633057448924" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1633147843158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633147843158" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633072391964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -140,17 +135,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="492" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633076352823" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1633058185555">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1633148190686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633058185555" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633148190686" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1633107015375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633107015375" />
+    <state x="598" y="281" key="MultipleFileMergeDialog" timestamp="1633107015383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="281" key="MultipleFileMergeDialog/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633107015383" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1633057589648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633057589648" />
-    <state x="666" y="100" width="834" height="687" key="find.popup" timestamp="1633075073709">
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1633107003335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="100" width="834" height="687" key="find.popup/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633075073709" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633107003335" />
+    <state x="666" y="100" width="834" height="687" key="find.popup" timestamp="1633148091481">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="100" width="834" height="687" key="find.popup/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633148091481" />
   </component>
 </project>
