@@ -24,6 +24,8 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from "@angular/material/select";
 import { ScheduleComponent } from './doctors/pages/schedule/schedule.component';
+import { MessagesDoctorComponent } from './doctors/pages/messages-doctor/messages-doctor.component';
+import {MatCardModule} from "@angular/material/card";
 
 
 @NgModule({
@@ -36,7 +38,8 @@ import { ScheduleComponent } from './doctors/pages/schedule/schedule.component';
     PatientsComponent,
     HomeComponent,
     DiagnosticsComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    MessagesDoctorComponent
   ],
   imports: [
     BrowserModule,
@@ -54,7 +57,8 @@ import { ScheduleComponent } from './doctors/pages/schedule/schedule.component';
     MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

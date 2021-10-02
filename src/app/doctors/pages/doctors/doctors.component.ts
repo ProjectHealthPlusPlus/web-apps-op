@@ -15,6 +15,9 @@ export class DoctorsComponent implements OnInit {
   doctorData: Doctor;
   dataSource: MatTableDataSource<any>;
   displayedColumns: string[] = ['id', 'name', 'age', 'address', 'actions']
+  longText = `The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog
+  from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+  originally bred for hunting.`;
 
   @ViewChild('doctorForm', {static: false})
   doctorForm!: NgForm;

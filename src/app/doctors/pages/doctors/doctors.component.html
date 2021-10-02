@@ -1,10 +1,43 @@
 <div class="table-wrapper">
-
+  <h1>Some scheduled appointments</h1>
+  <mat-card class="example-card">
+    <mat-card-title-group>
+      <mat-card-title>Travel</mat-card-title>
+      <mat-card-subtitle>Travel to Lima</mat-card-subtitle>
+      <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+    </mat-card-title-group>
+    <mat-card-content>
+      {{longText}}
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="example-card">
+    <mat-card-title-group>
+      <mat-card-title>Appointments</mat-card-title>
+      <mat-card-subtitle>Appointment with nobody</mat-card-subtitle>
+      <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+    </mat-card-title-group>
+    <mat-card-content>
+      {{longText}}
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="example-card">
+    <mat-card-title-group>
+      <mat-card-title>Virtual consultation</mat-card-title>
+      <mat-card-subtitle>Consultation to Will</mat-card-subtitle>
+      <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+    </mat-card-title-group>
+    <mat-card-content>
+      {{longText}}
+    </mat-card-content>
+  </mat-card>
+  <a mat-button routerLink="schedule"> <mat-icon>schedule</mat-icon> FULL CALENDAR </a>
+  <h1></h1>
+  <h1></h1>
   <h1>Diagnostics of your patients</h1>
   <app-diagnostics></app-diagnostics>
   <h2></h2>
 
-  <h1>Open Code Health++ | Doctors Catalogue</h1>
+  <h1>Doctors Catalogue</h1>
   <h2>{{ isEditMode ? 'Edit Doctor' : 'Add new Doctor'}}</h2>
   <form (submit)="onSubmit()" #doctorForm='ngForm'>
     <mat-form-field>

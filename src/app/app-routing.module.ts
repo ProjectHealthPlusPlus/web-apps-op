@@ -7,6 +7,7 @@ import { DoctorsComponent } from "./doctors/pages/doctors/doctors.component";
 import { PatientsComponent} from "./patients/patients.component";
 import { MedicalCenterComponent} from "./medical-center/medical-center.component";
 import { AboutComponent } from "./public/about/about.component";
+import {ScheduleComponent} from "./doctors/pages/schedule/schedule.component";
 
 /*Web App Main routes*/
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'doctors',         component: DoctorsComponent},
   {path: 'patients',        component: PatientsComponent},
   {path: 'medical-center',  component: MedicalCenterComponent},
+  {path: 'schedule',        component: ScheduleComponent},
   {path: 'about',           component: AboutComponent},
 
   //{ path: '',redirectTo: '/home',pathMatch: 'full'}
