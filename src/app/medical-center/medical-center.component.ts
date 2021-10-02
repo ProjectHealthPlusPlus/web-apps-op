@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {OwlOptions} from "ngx-owl-carousel-o";
 @Component({
   selector: 'app-medical-center',
   templateUrl: './medical-center.component.html',
@@ -11,5 +11,7 @@ export class MedicalCenterComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+
 
 }

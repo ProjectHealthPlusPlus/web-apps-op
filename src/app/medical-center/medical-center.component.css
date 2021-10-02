@@ -1,0 +1,22 @@
+
+.encabezado {
+  display: flex;
+  justify-content: center;
+
+}
+.image{
+  display: flex;
+  justify-content: center;
+}
+
+
+mat-grid-tile {
+  background: skyblue;
+}
+
+.grid{
+  width: 80%;
+  max-width: 100%;
+  justify-content: center;
+  margin: auto ;
+}
