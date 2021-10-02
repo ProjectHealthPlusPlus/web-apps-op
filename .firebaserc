@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "staging": "webappop-9d12c"
+  },
+  "targets": {
+    "webappop-9d12c": {
+      "hosting": {
+        "web-apps-op": [
+          "webappop-9d12c"
+        ]
+      }
+    }
+  }
+}
