@@ -1,37 +1,35 @@
 {
   "centromedico": [
     {
-    "id":1,
-    "city": "Lima",
-    "name": "EZSalud",
-    "address": "NoWhere"
+      "id": 1,
+      "city": "Lima",
+      "name": "EZSalud",
+      "address": "NoWhere"
     },
     {
-      "id":2,
+      "id": 2,
       "city": "Lima",
       "name": "SanPablo",
       "address": "SomeWhere"
     },
     {
-      "id":3,
+      "id": 3,
       "city": "Lima",
       "name": "SanMarcos",
       "address": "NoWhere"
     },
     {
-      "id":4,
+      "id": 4,
       "city": "Lima",
       "name": "SanLucas",
       "address": "AnyWhere"
     }
   ],
-
-
   "doctors": [
     {
       "id": 1,
       "name": "John Doe",
-      "age": 30,
+      "age": "32",
       "address": "NoWhere"
     },
     {
@@ -45,8 +43,81 @@
       "name": "William Norton",
       "age": 42,
       "address": "One Place"
+    },
+    {
+      "name": "Will Smith",
+      "age": "33",
+      "address": "Second Place",
+      "id": 4
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "name": "Jason J",
+      "age": 19,
+      "address": "NoWhere"
+    },
+    {
+      "id": 2,
+      "name": "Jonh Weak",
+      "age": 42,
+      "address": "Unknown"
+    },
+    {
+      "id": 3,
+      "name": "William Will",
+      "age": 24,
+      "address": "One Place"
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "description": "Is healthy",
+      "published": true,
+      "doctorId": 2
+    },
+    {
+      "id": 2,
+      "patientId": 1,
+      "description": "has the flu, needs rest",
+      "published": false,
+      "doctorId": 3
+    },
+    {
+      "id": 3,
+      "patientId": 2,
+      "description": "Have a fever, need paracetamol",
+      "published": true,
+      "doctorId": 2
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "title": "How",
+      "description": "How are you?",
+      "patientName": "Jason J",
+      "patientId": 1,
+      "doctorId": 2
+    },
+    {
+      "id": 4,
+      "title": "What",
+      "description": "How are you?",
+      "patientName": "Jason J",
+      "patientId": 1,
+      "doctorId": 3
+    },
+    {
+      "id": 5,
+      "title": "Session",
+      "description": "Reschedule appointment",
+      "patientName": "Jason J",
+      "patientId": 1,
+      "doctorId": 2
     }
   ]
 }
-
-
