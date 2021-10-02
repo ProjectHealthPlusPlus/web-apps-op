@@ -1,12 +1,9 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "68ff94d1-8621-4bbc-b5ef-909ee9ca8ce1"
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "web-apps-op": {
+    "web-app-op": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/web-apps-op",
+            "outputPath": "dist/web-app-op",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "web-apps-op:build:production"
+              "browserTarget": "web-app-op:build:production"
             },
             "development": {
-              "browserTarget": "web-apps-op:build:development"
+              "browserTarget": "web-app-op:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "web-apps-op:build"
+            "browserTarget": "web-app-op:build"
           }
         },
         "test": {
@@ -107,5 +104,5 @@
       }
     }
   },
-  "defaultProject": "web-apps-op"
+  "defaultProject": "web-app-op"
 }
