@@ -13,7 +13,7 @@ import { DoctorsComponent } from './doctors/pages/doctors/doctors.component';
 import { AboutComponent } from './public/about/about.component';
 import { PatientsComponent } from './patients/patients.component';
 import { HomeComponent } from './public/home/home.component';
-import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
+import { DiagnosticsComponent } from './doctors/pages/diagnostics/diagnostics.component';
 
 import {RouterModule} from "@angular/router";
 import {HttpClientModule} from "@angular/common/http";
@@ -22,6 +22,8 @@ import {MatPaginatorModule} from "@angular/material/paginator";
 import {MatTableModule} from "@angular/material/table";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
+import {MatSelectModule} from "@angular/material/select";
+import { ScheduleComponent } from './doctors/pages/schedule/schedule.component';
 
 
 @NgModule({
@@ -33,7 +35,8 @@ import {MatInputModule} from "@angular/material/input";
     AboutComponent,
     PatientsComponent,
     HomeComponent,
-    DiagnosticsComponent
+    DiagnosticsComponent,
+    ScheduleComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +53,8 @@ import {MatInputModule} from "@angular/material/input";
     MatTableModule,
     MatPaginatorModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

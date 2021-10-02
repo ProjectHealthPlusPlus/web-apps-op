@@ -92,6 +92,13 @@
       "description": "Have a fever, need paracetamol",
       "published": true,
       "doctorId": 2
+    },
+    {
+      "patientId": 3,
+      "description": "All ok",
+      "published": true,
+      "doctorId": 1,
+      "id": 4
     }
   ],
   "messages": [
