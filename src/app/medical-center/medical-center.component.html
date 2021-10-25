@@ -3,12 +3,14 @@
 
 <mat-card>
 <mat-card-title class="encabezado">Welcome Medical Center ######</mat-card-title>
-  <mat-card class = "encabezado">
-<img mat-card-xll-image  src="https://images.vexels.com/media/users/3/140487/isolated/preview/8e77dd6a09ce0f0a31bd7d077321dd7b-grafico-de-lineas-de-colores-en-crecimiento.png" >
-  </mat-card>
-  <mat-card-subtitle>Incremento de 100 clientes esta semana!</mat-card-subtitle>
 </mat-card>
 
+<mat-card class="header">
+  <img mat-card-image src="https://images.vexels.com/media/users/3/140487/isolated/preview/8e77dd6a09ce0f0a31bd7d077321dd7b-grafico-de-lineas-de-colores-en-crecimiento.png" alt="Photo of increasing">
+  <mat-card-content>
+    <mat-card-title>Incremento de 100 clientes esta semana!.</mat-card-title>
+  </mat-card-content>
+</mat-card>
 
 
 
@@ -34,44 +36,8 @@
 
 
 
-
-<mat-card class="grid">
-  <mat-card-title>Calendar</mat-card-title>
-<mat-grid-list cols="7" rowHeight="1:1">
-  <mat-grid-tile>1</mat-grid-tile>
-  <mat-grid-tile>2</mat-grid-tile>
-  <mat-grid-tile>3</mat-grid-tile>
-  <mat-grid-tile>4</mat-grid-tile>
-  <mat-grid-tile>5</mat-grid-tile>
-  <mat-grid-tile>6</mat-grid-tile>
-  <mat-grid-tile>7</mat-grid-tile>
-  <mat-grid-tile>8</mat-grid-tile>
-  <mat-grid-tile>9</mat-grid-tile>
-  <mat-grid-tile>10</mat-grid-tile>
-  <mat-grid-tile>11</mat-grid-tile>
-  <mat-grid-tile>12</mat-grid-tile>
-  <mat-grid-tile>13</mat-grid-tile>
-  <mat-grid-tile>14</mat-grid-tile>
-  <mat-grid-tile>15</mat-grid-tile>
-  <mat-grid-tile>16</mat-grid-tile>
-  <mat-grid-tile>17</mat-grid-tile>
-  <mat-grid-tile>18</mat-grid-tile>
-  <mat-grid-tile>19</mat-grid-tile>
-  <mat-grid-tile>20</mat-grid-tile>
-  <mat-grid-tile>21</mat-grid-tile>
-  <mat-grid-tile>22</mat-grid-tile>
-  <mat-grid-tile>23</mat-grid-tile>
-  <mat-grid-tile>24</mat-grid-tile>
-  <mat-grid-tile>25</mat-grid-tile>
-  <mat-grid-tile>26</mat-grid-tile>
-  <mat-grid-tile>27</mat-grid-tile>
-  <mat-grid-tile>28</mat-grid-tile>
-  <mat-grid-tile>29</mat-grid-tile>
-  <mat-grid-tile>30</mat-grid-tile>
-  <mat-grid-tile>1</mat-grid-tile>
-  <mat-grid-tile>2</mat-grid-tile>
-  <mat-grid-tile>3</mat-grid-tile>
-  <mat-grid-tile>4</mat-grid-tile>
-  <mat-grid-tile>5</mat-grid-tile>
-</mat-grid-list>
+<mat-card class="calendar">
+  <mat-card-title>Event Calendar</mat-card-title>
+  <p-fullCalendar [events]="events" [options]="options"></p-fullCalendar>
 </mat-card>
+

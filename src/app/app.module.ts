@@ -28,8 +28,7 @@ import { AboutComponent } from './about/about.component';
 import { PatientsComponent } from './patients/patients.component';
 import { HomeComponent } from './home/home.component';
 import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
-
-
+import {FullCalendarModule} from "primeng/fullcalendar";
 
 
 @NgModule({
@@ -60,7 +59,8 @@ import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
     MatFormFieldModule,
     FormsModule,
     MatTableModule,
-    MatTabsModule
+    MatTabsModule,
+    FullCalendarModule
 
 
 

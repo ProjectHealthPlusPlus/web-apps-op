@@ -2,6 +2,7 @@
 .encabezado {
   display: flex;
   justify-content: center;
+  font-size: xx-large;
 
 }
 .image{
@@ -18,5 +19,16 @@ mat-grid-tile {
   width: 80%;
   max-width: 100%;
   justify-content: center;
+  margin: auto ;
+}
+
+.header{
+  max-width: 40%;
+  justify-content: center;
+  margin: auto ;
+}
+
+.calendar{
+  max-width: 60%;
   margin: auto ;
 }
