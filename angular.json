@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "68ff94d1-8621-4bbc-b5ef-909ee9ca8ce1"
+    "analytics": "0c370bf2-174b-44a4-97cf-7cefef9813a1"
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "web-apps-op": {
+    "web-app-op": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/web-apps-op",
+            "outputPath": "dist/web-app-op",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -29,11 +29,17 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "scripts": [],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.css"
-            ],
-            "scripts": []
+              "src/styles.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeng/resources/themes/nova/theme.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/@fullcalendar/core/main.min.css",
+              "node_modules/@fullcalendar/daygrid/main.min.css",
+              "node_modules/@fullcalendar/timegrid/main.min.css"
+            ]
           },
           "configurations": {
             "production": {
@@ -72,10 +78,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "web-apps-op:build:production"
+              "browserTarget": "web-app-op:build:production"
             },
             "development": {
-              "browserTarget": "web-apps-op:build:development"
+              "browserTarget": "web-app-op:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +89,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "web-apps-op:build"
+            "browserTarget": "web-app-op:build"
           }
         },
         "test": {
@@ -103,9 +109,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "web-apps-op"
+  "defaultProject": "web-app-op"
 }
