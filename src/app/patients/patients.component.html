@@ -1,1 +1,270 @@
-<p>patients works!</p>
+<h1 class="text-center" style="font-size: 80px">Welcome #########</h1>
+
+<mat-grid-list cols="2" rowHeight="8em">
+  <mat-grid-tile [colspan]="1" rowspan="1">
+    <h1 style="font-size: 4em;margin-left: 25px">
+      <mat-icon style="font-size: 0.9em;margin-right: 30px" color="black">event</mat-icon>Your close Appointments
+    </h1>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    <button class="btn"mat-raised-button (click)="openForm()">+ New Appointment</button>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<!-- ---------------GRILLA DE CARDS---------------------------*/-->
+<mat-tab-group mat-align-tabs="center" animationDuration="1500ms">
+  <mat-tab label="Regular">
+    <mat-card class="grid">
+      <mat-grid-list cols="4" rowHeight="501px">
+        <mat-grid-tile >
+          <mat-card class="example-card1">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>doctor name</mat-card-title>
+              <mat-card-subtitle>appointment date</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://www.medtecheurope.org/wp-content/uploads/2018/10/nteractions-with-the-medical-community.png" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>
+                Cardiology and other symptons
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>JOIN</button>
+              <button style="background: beige" mat-button>DETAILS</button>
+            </mat-card-actions>
+          </mat-card>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+          <mat-card class="example-card1">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>doctor name</mat-card-title>
+              <mat-card-subtitle>appointment date</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://www.medtecheurope.org/wp-content/uploads/2018/10/nteractions-with-the-medical-community.png" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>
+                The Shiba Inu is the smallest of the six original
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>JOIN</button>
+              <button style="background: beige" mat-button>DETAILS</button>
+            </mat-card-actions>
+          </mat-card>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+          <mat-card class="example-card1">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>doctor name</mat-card-title>
+              <mat-card-subtitle>appointment date</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://www.medtecheurope.org/wp-content/uploads/2018/10/nteractions-with-the-medical-community.png" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>
+                The Shiba Inu is the smallest of the six original a
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>JOIN</button>
+              <button style="background: beige" mat-button>DETAILS</button>
+            </mat-card-actions>
+          </mat-card>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+          <mat-card class="example-card1">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>doctor name</mat-card-title>
+              <mat-card-subtitle>appointment date</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://www.medtecheurope.org/wp-content/uploads/2018/10/nteractions-with-the-medical-community.png" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>
+                The Shiba Inu is the smallest of the six original and
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>JOIN</button>
+              <button style="background: beige" mat-button>DETAILS</button>
+            </mat-card-actions>
+          </mat-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+
+      <div style="align-content: center">
+        <mat-card class="example-card1">
+          <mat-card-title-group>
+            <mat-card-title>Doctor's name</mat-card-title>
+            <mat-card-subtitle>date</mat-card-subtitle>
+            <img mat-card-xl-image src="https://huesosanos.org/wp-content/uploads/2018/01/diagnosis.png" >
+          </mat-card-title-group>
+          <mat-card-content>
+            <p>
+              After Having the appointment, as a doctor i conclude that you have the following diagnosis:
+              Heart Rythm got better from the previous consultation
+              Fever or high temperature in the head reduced
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </mat-card>
+  </mat-tab>
+  <mat-tab label="Important">
+    <mat-card class="grid">
+      <mat-grid-list cols="3" rowHeight="500px">
+        <mat-grid-tile>
+          <mat-card class="example-card1">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>patient name</mat-card-title>
+              <mat-card-subtitle>appointment date</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://www.ambitojuridico.com/public/styles/imagen_800x400/public/medico-salud-incapacidadbigstock.jpg?h=9a12962f&itok=wNjPfCZh" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>
+                Cardiology and other symptons
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>JOIN</button>
+              <button style="background: beige" mat-button>DETAILS</button>
+            </mat-card-actions>
+          </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-card class="example-card1">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>patient name</mat-card-title>
+              <mat-card-subtitle>appointment date</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://www.ambitojuridico.com/public/styles/imagen_800x400/public/medico-salud-incapacidadbigstock.jpg?h=9a12962f&itok=wNjPfCZh" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>
+                Cardiology and other symptons
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>JOIN</button>
+              <button style="background: beige" mat-button>DETAILS</button>
+            </mat-card-actions>
+          </mat-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card>
+  </mat-tab>
+  <mat-tab label="Urgent">
+    <mat-card class="grid">
+      <mat-grid-list cols="3" rowHeight="500px">
+        <mat-grid-tile>
+          <mat-card class="example-card1">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>patient name</mat-card-title>
+              <mat-card-subtitle>appointment date</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://www.minitmed.com/wp-content/uploads/2021/10/img-urgent-care-clinics-in-desktop.jpg" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>
+                Cardiology and other symptons
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>JOIN</button>
+              <button style="background: beige" mat-button>DETAILS</button>
+            </mat-card-actions>
+          </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-card class="example-card1">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>patient name</mat-card-title>
+              <mat-card-subtitle>appointment date</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://www.minitmed.com/wp-content/uploads/2021/10/img-urgent-care-clinics-in-desktop.jpg" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>
+                Cardiology and other symptons
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>JOIN</button>
+              <button style="background: beige" mat-button>DETAILS</button>
+            </mat-card-actions>
+          </mat-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card>
+  </mat-tab>
+</mat-tab-group>
+<!-- --------------fin -GRILLA DE CARDS---------------------------*/-->
+
+<!-- ---------------acordeon de botones desplegables---------------------------*/-->
+<mat-card style="width: 80em; margin: auto">
+  <mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          the net nija
+        </mat-panel-title>
+        <mat-panel-description>
+          cardiology {{panelOpenState ? '' : ''}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>web developer</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          ryu
+        </mat-panel-title>
+        <mat-panel-description>
+          cardiology {{panelOpenState ? '' : ''}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>graphic designer</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Chun li
+        </mat-panel-title>
+        <mat-panel-description>
+          cardiology {{panelOpenState ? '' : ''}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>web developer</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Gouken
+        </mat-panel-title>
+        <mat-panel-description>
+          cardiology {{panelOpenState ? '' : ''}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>Social media maverick</p>
+    </mat-expansion-panel>
+  </mat-accordion>
+</mat-card>
+<!-- --------------fin -acordeon de botones desplegables---------------------------*/-->
+
+
+
+

@@ -1,0 +1,87 @@
+.text-center{
+  text-align: center;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-size: 90px;
+}
+
+.icon{
+  font-size: 70px;
+  align-items: center;
+  display: inline-flex;
+  font-feature-settings: "liga";
+  font-size: 24px;
+  justify-content: center;
+  letter-spacing: normal;
+  line-height: 1;
+  position: relative;
+  text-indent: 0;
+  transition: .3s cubic-bezier(.25,.8,.5,1),visibility 0s;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn{
+  font-size: 65px;
+  height: 65%;
+}
+
+.example-card1 {
+  max-width: 320px;
+  align-items: center;
+  justify-content: center;
+
+}
+.example-header-image {
+  background-image: url('https://bit.ly/3uKX1Qd');
+  background-size: cover;
+}
+.t2{
+  font-size: 60px;
+}
+
+.grid{
+  width: 80%;
+  max-width: 100%;
+  justify-content: center;
+  margin: auto ;
+}
+
+.icon2{
+  align-items: center;
+  display: inline-flex;
+  font-feature-settings: "liga";
+  font-size: 60px;
+  justify-content: center;
+  letter-spacing: normal;
+  line-height: 1;
+  position: relative;
+  text-indent: 0;
+  vertical-align: middle;
+  margin-left: -16%;
+}
+
+.mat-form-field + .mat-form-field {
+  margin-left: 8px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  border-width: medium;
+  white-space: normal;
+  width: 50px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

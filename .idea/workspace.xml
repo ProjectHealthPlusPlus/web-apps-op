@@ -19,37 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e74ee0-77b7-4538-9079-03c43de6d60b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/header/header.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/about/about.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/about/about.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/about/about.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/diagnostics/diagnostics.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/diagnostics/diagnostics.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/diagnostics/diagnostics.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/diagnostics/diagnostics.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/diagnostics/diagnostics.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/diagnostics/diagnostics.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/diagnostics/diagnostics.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/diagnostics/diagnostics.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/doctors/doctors.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/doctors/doctors.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/doctors/doctors.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/doctors/doctors.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/doctors/doctors.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/doctors/doctors.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/doctors/doctors.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/doctors/doctors.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/home/home.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/medical-center/medical-center.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/medical-center/medical-center.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/medical-center/medical-center.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/medical-center/medical-center.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/patients/patients.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/patients/patients.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/patients/patients.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/patients/patients.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/patients/patients.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/patients/patients.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medic-center/patients/patients.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/patients/patients.component.ts" afterDir="false" />
-    </list>
+    <list default="true" id="e4e74ee0-77b7-4538-9079-03c43de6d60b" name="Default Changelist" comment="NavBarFinished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,19 +34,26 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1yt49r80VPlGNNjeTQm00ZXfJlO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="ts.external.directory.path" value="Z:\escritorio flotante\UPC\2021-2\open\gitjab\web-apps-op\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="D:\UNIVERSIDAD\2021 - 2\Open Source\Semana 15\web-apps-op-medical-center\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -97,6 +74,12 @@
       <workItem from="1633058188305" duration="31000" />
       <workItem from="1633068818932" duration="7521000" />
       <workItem from="1633102490955" duration="2275000" />
+      <workItem from="1633106844457" duration="10156000" />
+      <workItem from="1633155447551" duration="165000" />
+      <workItem from="1633156111507" duration="12691000" />
+      <workItem from="1633170364779" duration="2979000" />
+      <workItem from="1633175599377" duration="1412000" />
+      <workItem from="1637322040341" duration="18000000" />
     </task>
     <task id="LOCAL-00001" summary="Added navBar options, components and server">
       <created>1633076356378</created>
@@ -105,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633076356378</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="NavBarFinished">
+      <created>1633154338473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633154338474</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,32 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added navBar options, components and server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added navBar options, components and server" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633057448924">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633057448924" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633072391964">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633072391964" />
-    <state x="492" y="0" key="CommitChangelistDialog2" timestamp="1633076352823">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633076352823" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1633058185555">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633058185555" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1633057589648">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633057589648" />
-    <state x="666" y="100" width="834" height="687" key="find.popup" timestamp="1633075073709">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="666" y="100" width="834" height="687" key="find.popup/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633075073709" />
+    <MESSAGE value="NavBarFinished" />
+    <option name="LAST_COMMIT_MESSAGE" value="NavBarFinished" />
   </component>
 </project>

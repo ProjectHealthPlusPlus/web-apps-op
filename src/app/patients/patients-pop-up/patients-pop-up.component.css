@@ -1,0 +1,18 @@
+.normal-form{
+  margin:200px;
+}
+.controles-container{
+  width: 100%;
+  padding: 5%;
+}
+.container{
+
+  padding: 5%;
+  width: auto;
+  height: auto;
+  justify-content: center;
+
+}
+.input1{
+  width: 90%;
+}

@@ -1,0 +1,63 @@
+<div class="container">
+  <mat-toolbar >
+    <span>New Appointment</span>
+  </mat-toolbar>
+  <h2 style="margin-top: 20px">Please make sure to complete all the segments for a better attention</h2>
+
+  <mat-card style="margin-top: 20px">
+    <form [formGroup]="form" (ngSubmit)="newAppointment()">
+      <mat-grid-list cols="5" rowHeight="70px">
+        <mat-grid-tile [colspan]="3" [rowspan]="1">
+          <mat-form-field class="input1">
+            <mat-label>Speciality</mat-label>
+            <input matInput autocomplete="off" formControlName="speciality">
+          </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="2" [rowspan]="6" >
+          <img src="./assets/img/new_appointment.png" width="240" height="312">
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="3" [rowspan]="1" >
+          <mat-form-field class="input1">
+            <mat-label>Description</mat-label>
+            <input matInput autocomplete="off" formControlName="description">
+          </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="3" [rowspan]="1" >
+          <mat-form-field class="input1">
+            <mat-label>Choose a date</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="date">
+            <mat-datepicker-toggle matSuffix [for]="picker"style="height: 50px"></mat-datepicker-toggle>
+            <mat-datepicker style="height: 50px" #picker ></mat-datepicker>
+          </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="3" [rowspan]="1" >
+          <mat-form-field class="input1">
+            <mat-label>Pick Hour</mat-label>
+            <mat-select formControlName="hour">
+              <mat-option *ngFor="let item of hour" [value]="item">
+                {{item}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="3" [rowspan]="1" >
+          <mat-form-field class="input1">
+            <mat-label>Doctor(Optional)</mat-label>
+            <input matInput formControlName="doctor">
+          </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="3" [rowspan]="1" >
+          <button type="submit" [disabled]="form.invalid" mat-raised-button color="primary">Book</button>
+          <button mat-raised-button style="margin-left: 20px">Cancel</button>
+        </mat-grid-tile>
+
+      </mat-grid-list>
+    </form>
+  </mat-card>
+
+</div>

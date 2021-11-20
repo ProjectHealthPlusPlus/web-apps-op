@@ -1,37 +1,89 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {HeaderComponent } from './header/header.component';
+
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatGridListModule } from "@angular/material/grid-list";
+import { MatCardModule } from "@angular/material/card";
+import { MatIconModule } from "@angular/material/icon";
+import { MatButtonModule } from "@angular/material/button";
+import { MatInputModule } from "@angular/material/input";
+import { MatFormFieldModule } from "@angular/material/form-field";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { MatTableModule } from "@angular/material/table";
+import { MatPaginatorModule } from "@angular/material/paginator";
+import { HttpClientModule } from "@angular/common/http";
+import { MatTooltipModule} from "@angular/material/tooltip";
+import {MatTabsModule} from "@angular/material/tabs";
+
+import { Component } from '@angular/core';
+import { MedicalCenterComponent } from './medical-center/medical-center.component';
+import { DoctorsComponent } from './doctors/doctors.component';
+import { AboutComponent } from './about/about.component';
+import { PatientsComponent } from './patients/patients.component';
 import { HomeComponent } from './home/home.component';
 import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
-import { DoctorsComponent } from './doctors/doctors.component';
-import { PatientsComponent } from './patients/patients.component';
-import { MedicalCenterComponent } from './medical-center/medical-center.component';
-import { AboutComponent } from './about/about.component';
-import {HeaderModule} from "./layout/header/header.module";
-import {RouterModule} from "@angular/router";
-import {AppRoutingModule} from "./app-routing.module";
+import { PatientsPopUpComponent } from './patients/patients-pop-up/patients-pop-up.component';
+
+import {FullCalendarModule} from "primeng/fullcalendar";
+import {MatExpansionModule} from "@angular/material/expansion";
+import { MatDialogModule} from "@angular/material/dialog";
+import {MatDatepickerModule} from "@angular/material/datepicker";
+import {MatSelectModule} from "@angular/material/select";
+import {MatNativeDateModule, MatOptionModule} from "@angular/material/core";
+import {MatSnackBarModule} from "@angular/material/snack-bar";
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
+    MedicalCenterComponent,
+    DoctorsComponent,
+    AboutComponent,
+    PatientsComponent,
     HomeComponent,
     DiagnosticsComponent,
-    DoctorsComponent,
-    PatientsComponent,
-    MedicalCenterComponent,
-    AboutComponent
+    PatientsPopUpComponent
+
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     BrowserAnimationsModule,
-    HeaderModule,
-    RouterModule,
-    /*routing agrega this->:*/
-    AppRoutingModule
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    MatGridListModule,
+    MatCardModule,
+    MatInputModule,
+    MatTooltipModule,
+    HttpClientModule,
+    MatPaginatorModule,
+    MatFormFieldModule,
+    FormsModule,
+    MatTableModule,
+    MatTabsModule,
+    FullCalendarModule,
+    MatExpansionModule,
+    MatDialogModule,
+    ReactiveFormsModule,
+    MatDatepickerModule,
+    MatSelectModule,
+    MatNativeDateModule,
+    MatOptionModule,
+    MatSnackBarModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
