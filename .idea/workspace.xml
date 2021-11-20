@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4e74ee0-77b7-4538-9079-03c43de6d60b" name="Default Changelist" comment="NavBarFinished">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-center/medical-center.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="e4e74ee0-77b7-4538-9079-03c43de6d60b" name="Default Changelist" comment="NavBarFinished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +37,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1yt49r80VPlGNNjeTQm00ZXfJlO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,11 +52,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="ts.external.directory.path" value="Z:\programas x86 flotante\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="Z:\openTF\web-apps-op-medical-center\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\openTF\web-apps-op-medical-center\server" />
+      <recent name="Z:\openTF\web-apps-op-medical-center\src\app\medical-center\services" />
       <recent name="Z:\escritorio flotante\UPC\2021-2\open\gitjab\web-apps-op\src\app" />
       <recent name="Z:\escritorio flotante\UPC\2021-2\open\gitjab\web-apps-op\src\app\model" />
     </key>
@@ -88,6 +80,10 @@
       <workItem from="1633156111507" duration="12691000" />
       <workItem from="1633170364779" duration="2979000" />
       <workItem from="1633175599377" duration="1412000" />
+      <workItem from="1637298674574" duration="1017000" />
+      <workItem from="1637303127407" duration="58000" />
+      <workItem from="1637303856896" duration="1165000" />
+      <workItem from="1637334364940" duration="5187000" />
     </task>
     <task id="LOCAL-00001" summary="Added navBar options, components and server">
       <created>1633076356378</created>
@@ -131,6 +127,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633057448924" />
+    <state x="686" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637336247472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1637336247472" />
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1633167683921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -143,10 +143,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="492" y="0" width="1159" height="864" key="CommitChangelistDialog2/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633155521286" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1633157041512">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1637303188297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633157041512" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1637303188297" />
     <state x="184" y="86" key="MergeDialog" timestamp="1633107015375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -167,6 +168,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.109.1360.728@0.0.1920.1040" timestamp="1633154111155" />
+    <state x="1067" y="285" width="617" height="855" key="dock-window-1" timestamp="1637386646592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1067" y="285" width="617" height="855" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1637386646592" />
     <state x="666" y="100" width="834" height="687" key="find.popup" timestamp="1633148091481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

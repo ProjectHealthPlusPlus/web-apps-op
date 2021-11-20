@@ -1,4 +1,9 @@
 
+mat-card{
+  margin-top: 10px !important;
+}
+
+
 .encabezado {
   display: flex;
   justify-content: center;
