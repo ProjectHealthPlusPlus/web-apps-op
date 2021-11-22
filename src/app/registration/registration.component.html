@@ -1,0 +1,72 @@
+<div class="container">
+  <mat-toolbar>User Registration</mat-toolbar>
+  <mat-card style="margin-top: 10px">
+    <form>
+      <mat-grid-list cols="4" rowHeight="70px">
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+          <mat-form-field class="anchor">
+            <mat-label>Username: </mat-label>
+            <input type="text" matInput autocomplete="off" >
+          </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="3" [rowspan]="9">
+          <img src="./assets/img/registration.png" width="240" height="312">
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+          <mat-form-field class="anchor">
+            <mat-label>Email: </mat-label>
+            <input type="text" matInput autocomplete="off">
+          </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+          <mat-form-field class="anchor">
+            <mat-label>Password: </mat-label>
+            <input type="text" matInput autocomplete="off">
+          </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+          <mat-form-field class="anchor">
+            <mat-label>Name: </mat-label>
+            <input type="text" matInput autocomplete="off" >
+          </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+          <mat-form-field class="anchor">
+            <mat-label>LastName: </mat-label>
+            <input type="text" matInput autocomplete="off">
+          </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+          <mat-form-field class="anchor">
+            <mat-label>dni: </mat-label>
+            <input type="text" matInput autocomplete="off" >
+          </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+          <mat-form-field class="anchor">
+            <mat-label>age: </mat-label>
+            <input type="text" matInput autocomplete="off" >
+          </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+          <mat-form-field class="anchor">
+            <mat-label>Role</mat-label>
+            <mat-select formControlName="Role">
+              <mat-option *ngFor="let item of role" [value]="item">
+                {{item}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="1" [rowspan]="1" >
+          <button style="width: 40%" mat-raised-button color="primary">Register</button>
+
+        </mat-grid-tile>
+
+      </mat-grid-list>
+    </form>
+  </mat-card>
+</div>
